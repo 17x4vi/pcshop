@@ -32,13 +32,33 @@ section {
   margin-bottom: 30px;
 }
 
+.productos-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las cajas bajen a la siguiente fila */
+  gap: 15px; /* Espacio entre cajas */
+}
+
 /* Estilo de productos */
 .producto {
   border: 1px solid #ddd;
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 10px; /* Borde más redondeado */
   background-color: #f9f9f9;
-  margin-bottom: 15px;
+  flex: 1 1 calc(50% - 15px);
+  box-sizing: border-box;.productos-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las cajas bajen a la siguiente fila */
+  gap: 15px; /* Espacio entre cajas */
+}
+
+/* Estilo de productos */
+.producto {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px; /* Borde más redondeado */
+  background-color: #f9f9f9;
+  flex: 1 1 calc(50% - 15px);
+  box-sizing: border-box;
 }
 
 button {
@@ -83,5 +103,3 @@ footer {
   color: #7f8c8d;
   font-size: 0.9em;
 }   
-
-
