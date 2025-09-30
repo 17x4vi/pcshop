@@ -1,0 +1,125 @@
+header {
+    background-color: sandybrown;
+    height: 50px;
+    font-family: Titulo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px black;
+    position: sticky;
+    top: 0%;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: "Titulo";
+    src: url(naturaly/Naturaly.otf);
+}
+
+.border {
+    border: 3px solid white;
+    box-shadow: 10px 10px 10px black;
+    display: inline-block;
+    margin: 2%;
+    transition: transform 0.6s ease;
+}
+
+.border:hover {
+    transform: scale(1.2);
+}
+
+.separacion {
+    margin: 5%;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.pequeña {
+    font-size: small;
+}
+
+.tamaño {
+    width: 220px;
+    height: 200px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.color {
+    background-color: #E0DEDB;
+}
+
+#mallorca {
+    height: 400px;
+    width: 500px;
+    display: block;
+    margin: 2% auto;
+}
+
+#formulario,
+#lista,
+#audio2 {
+    width: 220px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 15%;
+}
+
+
+@media screen and (max-width: 1024px) {
+    #mallorca {
+        width: 80%;
+        height: auto;
+    }
+    .border {
+        width: 45%;
+        margin: 2%;
+    }
+    .tamaño {
+        width: 200px;
+        height: auto;
+    }
+    #formulario, #lista, #audio2 {
+        margin-left: 10%;
+        width: 180px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    header {
+        height: 35px;
+        font-size: 16px;
+    }
+    .border {
+        width: 100%;
+        margin: 5% auto;
+        box-shadow: 5px 5px 5px black;
+    }
+    .tamaño {
+        width: 100%;
+        height: auto;
+    }
+    #mallorca {
+        width: 100%;
+        height: auto;
+    }
+    #formulario, #lista, #audio2 {
+        width: 120px;
+        height: auto;
+        margin-left: 0;
+    }
+    p {
+        font-size: small;
+    }
+}
