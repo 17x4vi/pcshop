@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #0e0040;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(159, 196, 197);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+  color: #027ef3;
+}
+
+p {
+  color: #000;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #2c3e50;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.catalogo {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.columna {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.producto {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #7f8c8d;
+  font-size: 0.9em;
+}
+
+#pie {
+  color: antiquewhite;
+}
