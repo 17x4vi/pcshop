@@ -14,7 +14,191 @@ main {
   padding: 20px;
   background-color: rgb(159, 196, 197);
   border-radius: 8px;
+  box-shadow: 0 0 1
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #0e0040;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Contenedor principal */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(159, 196, 197);
+  border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+p {
+  color: rgb(0, 0, 0);
+}
+
+h1, h2, h3 {
+  color: #027ef3;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.productos-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 15px; 
+}
+
+
+.producto {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px; 
+  background-color: #f9f9f9;
+  flex: 1 1 calc(50% - 15px);
+  box-sizing: border-box;.productos-container 
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 15px; 
+}
+
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/*barra navegacion*/
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #7f8c8d;
+  font-size: 0.9em;
+}   
+
+#red {
+  background-color: red;
+  height:100px ;
+  width:100px ;
+  border-radius:50% ;
+  z-index: relative;
+  float: right ;
+}
+
+#pie {
+  color: antiquewhite;
+}
+
+
+/*estilo de formulario by: Alberto*/
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 400px;
+  margin: 0 auto 30px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 5px #3498db;
+}
+
+form button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+form button.cta {
+  background-color: #e74c3c;
+}
+
+form button.cta:hover {
+  background-color: #c0392b;
+}
+
+.login {
+  text-align: center;
+}
+
+/*parte de informacion y contacto*/
+.contacto-info {
+  padding: 30px;
+  background: #eee;
+}
+
+.contacto-info h2 {
+  text-align: center;
+}
+
+.seccion {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.info {
+  width: 250px;
+}0px rgba(0,0,0,0.1);
 }
 
 
